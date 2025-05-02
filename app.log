@@ -1,0 +1,52 @@
+2025-05-02 02:16:51,849 WARNING:  * Debugger is active!
+2025-05-02 02:16:51,855 INFO:  * Debugger PIN: 102-085-995
+2025-05-02 02:16:54,922 INFO: Visited Home Page
+2025-05-02 02:16:54,927 INFO: 127.0.0.1 - - [02/May/2025 02:16:54] "GET / HTTP/1.1" 200 -
+2025-05-02 02:16:56,579 INFO: Viewed Tasks Page
+2025-05-02 02:16:56,589 INFO: 127.0.0.1 - - [02/May/2025 02:16:56] "GET /tasks HTTP/1.1" 200 -
+2025-05-02 02:16:56,703 INFO: 127.0.0.1 - - [02/May/2025 02:16:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-02 02:16:58,164 INFO: Added Task: WEF
+2025-05-02 02:16:58,168 INFO: 127.0.0.1 - - [02/May/2025 02:16:58] "[32mPOST /add-task HTTP/1.1[0m" 302 -
+2025-05-02 02:16:58,177 INFO: Viewed Tasks Page
+2025-05-02 02:16:58,177 INFO: 127.0.0.1 - - [02/May/2025 02:16:58] "GET /tasks HTTP/1.1" 200 -
+2025-05-02 02:16:58,188 INFO: 127.0.0.1 - - [02/May/2025 02:16:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-02 02:17:00,657 INFO: Added Task: ERG
+2025-05-02 02:17:00,663 INFO: 127.0.0.1 - - [02/May/2025 02:17:00] "[32mPOST /add-task HTTP/1.1[0m" 302 -
+2025-05-02 02:17:00,669 INFO: Viewed Tasks Page
+2025-05-02 02:17:00,669 INFO: 127.0.0.1 - - [02/May/2025 02:17:00] "GET /tasks HTTP/1.1" 200 -
+2025-05-02 02:17:00,677 INFO: 127.0.0.1 - - [02/May/2025 02:17:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-02 02:17:02,152 INFO: Visited Home Page
+2025-05-02 02:17:02,154 INFO: 127.0.0.1 - - [02/May/2025 02:17:02] "GET / HTTP/1.1" 200 -
+2025-05-02 02:17:46,042 INFO: Status Checked
+2025-05-02 02:17:46,042 INFO: 127.0.0.1 - - [02/May/2025 02:17:46] "GET /check-status HTTP/1.1" 200 -
+2025-05-02 02:17:53,532 INFO: Viewed Tasks Page
+2025-05-02 02:17:53,532 INFO: 127.0.0.1 - - [02/May/2025 02:17:53] "GET /tasks HTTP/1.1" 200 -
+2025-05-02 02:17:53,593 INFO: 127.0.0.1 - - [02/May/2025 02:17:53] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-02 02:18:56,521 INFO: Viewed Tasks Page
+2025-05-02 02:18:56,523 INFO: 127.0.0.1 - - [02/May/2025 02:18:56] "GET /tasks HTTP/1.1" 200 -
+2025-05-02 02:18:56,533 INFO: 127.0.0.1 - - [02/May/2025 02:18:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-02 02:18:58,442 INFO: Deleted Task ID: 1
+2025-05-02 02:18:58,447 INFO: 127.0.0.1 - - [02/May/2025 02:18:58] "[32mGET /delete-task/1 HTTP/1.1[0m" 302 -
+2025-05-02 02:18:58,453 INFO: Viewed Tasks Page
+2025-05-02 02:18:58,453 INFO: 127.0.0.1 - - [02/May/2025 02:18:58] "GET /tasks HTTP/1.1" 200 -
+2025-05-02 02:18:58,466 INFO: 127.0.0.1 - - [02/May/2025 02:18:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-02 02:18:59,519 INFO: Deleted Task ID: 2
+2025-05-02 02:18:59,519 INFO: 127.0.0.1 - - [02/May/2025 02:18:59] "[32mGET /delete-task/2 HTTP/1.1[0m" 302 -
+2025-05-02 02:18:59,523 INFO: Viewed Tasks Page
+2025-05-02 02:18:59,523 INFO: 127.0.0.1 - - [02/May/2025 02:18:59] "GET /tasks HTTP/1.1" 200 -
+2025-05-02 02:18:59,536 INFO: 127.0.0.1 - - [02/May/2025 02:18:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-02 02:19:00,607 INFO: Visited Home Page
+2025-05-02 02:19:00,607 INFO: 127.0.0.1 - - [02/May/2025 02:19:00] "GET / HTTP/1.1" 200 -
+2025-05-02 02:23:29,145 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-05-02 02:23:29,145 INFO: [33mPress CTRL+C to quit[0m
+2025-05-02 02:23:29,147 INFO:  * Restarting with stat
+2025-05-02 02:23:29,888 WARNING:  * Debugger is active!
+2025-05-02 02:23:29,891 INFO:  * Debugger PIN: 102-085-995
+2025-05-02 02:23:40,880 INFO: Status Checked
+2025-05-02 02:23:40,880 INFO: 127.0.0.1 - - [02/May/2025 02:23:40] "GET /check-status HTTP/1.1" 200 -
+2025-05-02 02:24:28,746 INFO: Visited Home Page
+2025-05-02 02:24:28,751 INFO: 127.0.0.1 - - [02/May/2025 02:24:28] "GET / HTTP/1.1" 200 -
+2025-05-02 02:24:30,512 INFO: Viewed Tasks Page
+2025-05-02 02:24:30,517 INFO: 127.0.0.1 - - [02/May/2025 02:24:30] "GET /tasks HTTP/1.1" 200 -
+2025-05-02 02:24:30,588 INFO: 127.0.0.1 - - [02/May/2025 02:24:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -

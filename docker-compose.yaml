@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+      - ./static:/app/static
+      - ./instance:/app/instance
+    environment:
+      - FLASK_ENV=development
+      - SECRET_KEY=your-secret-key-here
+    restart: unless-stopped
