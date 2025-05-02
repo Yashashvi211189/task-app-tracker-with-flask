@@ -12,6 +12,32 @@
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original-wordmark.svg" width="100" alt="Flask">
 </div>
 
+<h2>📝 Technical Overview</h2>
+
+<h3>Tech Stack</h3>
+<ul>
+  <li><strong>Backend</strong>: Python 3.9 + Flask 2.3</li>
+  <li><strong>Database</strong>: SQLite (Flask-SQLAlchemy)</li>
+  <li><strong>Containerization</strong>: Docker + Docker Compose</li>
+  <li><strong>Frontend</strong>: HTML5/CSS3 with responsive box design</li>
+</ul>
+
+<h3>Key Components</h3>
+<ul>
+  <li>CRUD task operations</li>
+  <li>Health check API endpoint (<code>/check-status</code>)</li>
+  <li>Production-ready Docker setup</li>
+  <li>Gunicorn WSGI server</li>
+</ul>
+
+<h3>Architecture</h3>
+<pre class="mermaid">
+flowchart LR
+    A[Flask App] --> B[SQLite DB]
+    A --> C[Docker Container]
+    C --> D[Port 8000]
+</pre>
+
 <h2>🚀 Features</h2>
 <ul>
   <li>Task management system (CRUD operations)</li>
@@ -70,5 +96,9 @@ my-devops-projectbackend/
 <p>MIT License</p>
 
 <div align="center">
-  <p>Built with ❤️ by Yashashvi211189</p>
+  <p>Built with ❤️ by Yashashvi Agnihotri</p>
 </div>
+
+<!-- Mermaid JS for diagram rendering -->
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true});</script>
