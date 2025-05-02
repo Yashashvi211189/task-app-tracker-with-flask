@@ -98,7 +98,3 @@ my-devops-projectbackend/
 <div align="center">
   <p>Built with ❤️ by Yashashvi Agnihotri</p>
 </div>
-
-<!-- Mermaid JS for diagram rendering -->
-<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
-<script>mermaid.initialize({startOnLoad:true});</script>
